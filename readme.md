@@ -1,8 +1,11 @@
 # Jaswanth Ramadasappa Gari — Full-Stack Developer Portfolio
 
-A modern, high-performance, and responsive developer portfolio built with **Next.js 16 (App Router)**, **Tailwind CSS**, and **TypeScript**.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://my-portfolio-1-3gj5.onrender.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaswanthramadasappa-lab)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaswanth-ramadasappagari/)
 
-🌐 **Live Demo & Resume**: Direct in-site interactive 1-page Resume viewer & 1-click PDF download synchronized with official credentials.
+> 🚀 **Live Production Deployment**: [https://my-portfolio-1-3gj5.onrender.com/](https://my-portfolio-1-3gj5.onrender.com/)  
+> 📄 **Interactive Resume & PDF**: Direct in-site 1-page resume viewer with 1-click PDF download synchronized with official credentials.
 
 ---
 
@@ -89,36 +92,19 @@ I am **Jaswanth Ramadasappa Gari**, a B.Tech Computer Science and Engineering st
 
 ---
 
-## 🌐 Deploy to Render (Step-by-Step)
+## 🌐 Live Deployment
 
-This repository includes a pre-configured [`render.yaml`](render.yaml) file for instant deployment on [Render](https://render.com).
-
-### Method 1: Automatic Blueprint (Recommended)
-1. Log in to [dashboard.render.com](https://dashboard.render.com).
-2. Click **New +** → **Blueprint**.
-3. Connect your GitHub repository: `https://github.com/jaswanthramadasappa-lab/my_portfolio`.
-4. Render will automatically read `render.yaml` and configure everything.
-5. Click **Apply** to deploy.
-
-### Method 2: Manual Web Service Setup
-1. Log in to [dashboard.render.com](https://dashboard.render.com).
-2. Click **New +** → **Web Service**.
-3. Select your repository `my_portfolio`.
-4. Configure the service:
-   - **Name**: `jaswanth-portfolio`
-   - **Language**: `Node`
-   - **Branch**: `main`
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm start`
-   - **Instance Type**: `Free`
-5. Click **Create Web Service**. Render will build and deploy your portfolio live with automatic HTTPS!
+- **Live URL**: [https://my-portfolio-1-3gj5.onrender.com/](https://my-portfolio-1-3gj5.onrender.com/)
+- **Repository**: [https://github.com/jaswanthramadasappa-lab/my_portfolio](https://github.com/jaswanthramadasappa-lab/my_portfolio)
+- **Deployment Platform**: Render (Web Service / Blueprint via `render.yaml`)
 
 ---
 
 ## 📬 Connect With Me
 
-- **Email**: [jaswanthramadasappa@gmail.com](mailto:jaswanthramadasappa@gmail.com)
-- **Phone**: [+91 7989345719](tel:+917989345719)
-- **LinkedIn**: [linkedin.com/in/jaswanth-ramadasappagari](https://www.linkedin.com/in/jaswanth-ramadasappagari/)
-- **GitHub**: [github.com/jaswanthramadasappa-lab](https://github.com/jaswanthramadasappa-lab)
-- **LeetCode**: [leetcode.com/u/y428pyL8mA/](https://leetcode.com/u/y428pyL8mA/)
+- 🌐 **Live Website**: [https://my-portfolio-1-3gj5.onrender.com/](https://my-portfolio-1-3gj5.onrender.com/)
+- 📧 **Email**: [jaswanthramadasappa@gmail.com](mailto:jaswanthramadasappa@gmail.com)
+- 📱 **Phone**: [+91 7989345719](tel:+917989345719)
+- 💼 **LinkedIn**: [linkedin.com/in/jaswanth-ramadasappagari](https://www.linkedin.com/in/jaswanth-ramadasappagari/)
+- 💻 **GitHub**: [github.com/jaswanthramadasappa-lab](https://github.com/jaswanthramadasappa-lab)
+- 🧩 **LeetCode**: [leetcode.com/u/y428pyL8mA/](https://leetcode.com/u/y428pyL8mA/)

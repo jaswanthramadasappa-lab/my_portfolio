@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 })
 
-const siteUrl = 'https://jaswanth-portfolio.vercel.app'
+const siteUrl = 'https://my-portfolio-1-3gj5.onrender.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
