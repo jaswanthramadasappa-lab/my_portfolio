@@ -28,7 +28,7 @@ I am **Jaswanth Ramadasappa Gari**, a B.Tech Computer Science and Engineering st
 | **Backend & APIs** | Node.js, Express.js, RESTful APIs, JWT Authentication |
 | **Databases** | MongoDB, SQLite, MySQL |
 | **AI & Voice** | OpenAI API, Whisper AI, Speech Recognition, Prompt Engineering |
-| **Developer Tools** | Git, GitHub, VS Code, Postman, Vercel |
+| **Developer Tools** | Git, GitHub, VS Code, Postman, Vercel, Render |
 
 ---
 
@@ -86,6 +86,32 @@ I am **Jaswanth Ramadasappa Gari**, a B.Tech Computer Science and Engineering st
 - Responsive Web Design using Flexbox
 - Programming Foundations with Python
 - Developer Foundations
+
+---
+
+## 🌐 Deploy to Render (Step-by-Step)
+
+This repository includes a pre-configured [`render.yaml`](render.yaml) file for instant deployment on [Render](https://render.com).
+
+### Method 1: Automatic Blueprint (Recommended)
+1. Log in to [dashboard.render.com](https://dashboard.render.com).
+2. Click **New +** → **Blueprint**.
+3. Connect your GitHub repository: `https://github.com/jaswanthramadasappa-lab/my_portfolio`.
+4. Render will automatically read `render.yaml` and configure everything.
+5. Click **Apply** to deploy.
+
+### Method 2: Manual Web Service Setup
+1. Log in to [dashboard.render.com](https://dashboard.render.com).
+2. Click **New +** → **Web Service**.
+3. Select your repository `my_portfolio`.
+4. Configure the service:
+   - **Name**: `jaswanth-portfolio`
+   - **Language**: `Node`
+   - **Branch**: `main`
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm start`
+   - **Instance Type**: `Free`
+5. Click **Create Web Service**. Render will build and deploy your portfolio live with automatic HTTPS!
 
 ---
 
