@@ -5,13 +5,17 @@ import { About } from "@/components/sections/about"
 import { Skills } from "@/components/sections/skills"
 import { Projects } from "@/components/sections/projects"
 import { Experience } from "@/components/sections/experience"
+import { Achievements } from "@/components/sections/achievements"
 import { Education } from "@/components/sections/education"
 import { Certifications } from "@/components/sections/certifications"
 import { Contact } from "@/components/sections/contact"
+import { ScrollProgress } from "@/components/scroll-progress"
+import { BackToTop } from "@/components/back-to-top"
 
 export default function Page() {
   return (
     <>
+      <ScrollProgress />
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-primary focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-primary-foreground"
@@ -25,11 +29,15 @@ export default function Page() {
         <Skills />
         <Projects />
         <Experience />
+        <Achievements />
         <Education />
         <Certifications />
         <Contact />
       </main>
       <SiteFooter />
+      <BackToTop />
     </>
   )
 }
+
+

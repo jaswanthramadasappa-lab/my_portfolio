@@ -12,7 +12,7 @@ export const personal = {
   phone: "+91 6303842582",
   photo:
     "https://res.cloudinary.com/dtz8xnkla/image/upload/v1754732125/my_photo_resume_hbdlgi.jpg",
-  bio: "I am a B.Tech Computer Science Engineering student at Madanapalle Institute of Technology & Science (MITS), passionate about web development, problem solving, and building practical applications. I enjoy creating responsive and user-friendly web applications using modern frontend and backend technologies while continuously improving my Data Structures and Algorithms skills. I am also exploring Generative AI and AI-powered application development.",
+  bio: "I am a B.Tech Computer Science Engineering student at Madanapalle Institute of Technology & Science (MITS), passionate about web development, algorithmic problem solving, and building practical software solutions. I specialize in developing responsive web applications using React, Node.js, and SQL, while advancing my Data Structures and Algorithms proficiency and exploring Generative AI automation.",
 } as const
 
 export const socials = {
@@ -27,6 +27,7 @@ export const navLinks = [
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
+  { label: "Achievements", href: "#achievements" },
   { label: "Education", href: "#education" },
   { label: "Certifications", href: "#certifications" },
   { label: "Contact", href: "#contact" },
@@ -43,13 +44,42 @@ export const aboutCards = [
 export const experience = {
   company: "RD INFRO TECHNOLOGY",
   role: "Web Development Intern",
+  type: "Offline Internship Program",
   duration: "8 Weeks",
   dates: "19/05/2026 – 18/07/2026",
-  technologies: ["Frontend Web Technologies", "Backend Web Technologies"],
+  certificateId: "RDWD592DD",
+  regNo: "TN-34-0050921",
+  accreditations: ["AICTE Approved", "MSME Recognized", "Govt. of India Certified"],
+  technologies: ["React.js", "Node.js", "JavaScript", "HTML5 & CSS3", "REST APIs", "Full Stack Development"],
   summary:
-    "Completed an 8-week offline internship in Web Development. Demonstrated technical skills, a positive learning attitude, and consistent dedication toward assigned tasks and projects.",
+    "Completed an intensive 8-week offline internship in Web Development at RD INFRO TECHNOLOGY. Demonstrated strong technical skills, a positive learning attitude, and consistent dedication toward assigned tasks and projects, contributing to production-grade web solutions.",
   certificateTitle: "Internship Completion Certificate",
+  certificateImage: "/certificates/rd-infro-internship.png",
 } as const
+
+export const achievements = [
+  {
+    title: "1st Prize – Department-Level Project Expo",
+    category: "Innovation & Project Exhibition",
+    description: "Awarded 1st place in the university department project expo for designing and demonstrating high-impact web and AI-driven solutions.",
+    highlight: "1st Place 🥇",
+    badgeColor: "amber",
+  },
+  {
+    title: "2nd Prize – Coding Competition",
+    category: "Algorithmic Problem Solving",
+    description: "Secured 2nd prize in a competitive coding competition demonstrating fast, optimal algorithmic problem solving with Data Structures in Python & C++.",
+    highlight: "2nd Place 🥈",
+    badgeColor: "cyan",
+  },
+  {
+    title: "Cleared Nxtmock AI Interview – NxtWave",
+    category: "Technical Evaluation & Assessment",
+    description: "Successfully cleared the comprehensive Nxtmock AI Technical Interview evaluating core competencies in full-stack web engineering, data structures, and system design.",
+    highlight: "Verified Candidate 🎯",
+    badgeColor: "emerald",
+  },
+] as const
 
 export const education = [
   {
@@ -74,3 +104,4 @@ export const education = [
 
 // Resume file. Place the actual resume PDF at public/resume.pdf to enable download.
 export const resumeUrl = "/resume.pdf"
+
